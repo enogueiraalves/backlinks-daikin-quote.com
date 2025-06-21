@@ -4,15 +4,8 @@ export default {
     const path = url.pathname
 
     const redirects = {
-        "/": "https://bargenial.com.br/daikin-quote/",
-        "/home": "https://bargenial.com.br/daikin-quote/",
-        "/quote": "https://bargenial.com.br/daikin-quote/",
-        "/orcamento": "https://bargenial.com.br/daikin-quote/",
-        "/ar-condicionado": "https://bargenial.com.br/daikin-quote/",
-        "/climatizacao": "https://bargenial.com.br/daikin-quote/",
-        "/instalacao": "https://bargenial.com.br/daikin-quote/",
-        "/manutencao": "https://bargenial.com.br/daikin-quote/",
-        "/contato": "https://bargenial.com.br/daikin-quote/"
+      "/br/": "https://melhoradegaclimatizada.com.br/climatizacao-inteligente-adegas-e-ar-condicionado/",
+      "/br/#/login": "https://melhoradegaclimatizada.com.br/climatizacao-inteligente-adegas-e-ar-condicionado/"
     }
 
     if (redirects[path]) {
